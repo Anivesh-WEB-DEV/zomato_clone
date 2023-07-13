@@ -1,0 +1,20 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+@import "./styles/commonClasses.css";
+@import "./styles/variable.css";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@300&family=Nunito+Sans&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
