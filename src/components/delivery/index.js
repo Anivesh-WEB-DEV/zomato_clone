@@ -51,7 +51,8 @@ const Delivery = () => {
     </div>
     <DeliveryCollections/>
     <TopBrands/>
-    <ExploreSection List={restaurantList} collectionName='Delivery Restaurants in Phase 1, Sector 56, Sahibzada Ajit Singh Nagar
+    <ExploreSection List={restaurantList} 
+    collectionName='Delivery Restaurants in Phase 1, Sector 56, Sahibzada Ajit Singh Nagar
 ' />
     </div>
   )

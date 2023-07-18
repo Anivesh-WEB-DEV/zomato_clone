@@ -1,6 +1,5 @@
 import React from 'react';
 import './exploreSection.css';
-
 import ExploreCard from './exploreCard';
 
 const ExploreSection = ({List, collectionName}) => {

@@ -49,7 +49,7 @@ const TopBrandList = [
 ];
 
 const settings = {
- infinite:false,
+ infinite:true,
  slidesToShow: 5,
  slidesToScroll: 1,
  nextArrow: <NextArrow/>,

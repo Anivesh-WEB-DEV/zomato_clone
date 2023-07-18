@@ -44,6 +44,21 @@
  font-weight: 500;
  text-overflow: ellipsis;
 }
+.gold-off{
+ position: absolute;
+ left: 0px;
+ bottom: 14px;
+ background-color: var(--tag-red);
+ color: var(--primary-bg);
+ font-size: 14px;
+ padding: 0px 6px;
+ border-radius: 0px 2px 2px 0px;
+ overflow: hidden;
+ white-space: nowrap;
+ line-height: 18px;
+ font-weight: 500;
+ text-overflow: ellipsis;
+}
 .res-row{
  display: flex;
  justify-content: space-between;

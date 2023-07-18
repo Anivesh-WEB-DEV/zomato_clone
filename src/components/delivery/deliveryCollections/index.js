@@ -73,7 +73,7 @@ const deliveryItems=[
 
 const settings = {
  infinite:false,
- slidesToShow: 5,
+ slidesToShow: 6,
  slidesToScroll: 1,
  nextArrow: <NextArrow/>,
  prevArrow: <PrevArrow/>,

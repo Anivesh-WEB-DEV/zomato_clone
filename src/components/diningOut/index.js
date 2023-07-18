@@ -1,6 +1,10 @@
 import React from 'react';
 import './diningOut.css'
 import Collection from '../common/collection';
+import { diningOut } from '../../data/diningOut';
+import Filters from '../common/filters';
+import ExploreSection from '../common/exploreSection';
+
 
 const collectionList =[
   {
@@ -53,7 +57,7 @@ const collectionList =[
   }
 ]
 
-const deliveryFilters = [
+const diningFilters = [
   {
     id:1,
     icon: <i className="fi fi-rr-settings-sliders absolute-center" ></i>,
@@ -67,31 +71,32 @@ const deliveryFilters = [
   },
   {
     id:3,
-    title: 'Safe and Hygienic',
+    title: 'Outdoor Seating',
 
   },
   {
     id:4,
-    title: 'Pure Veg'
+    title: 'Serves Alcohol'
 
   },
   {
     id:5,
-    title: 'Delivery Time',
-    icon: <i class="fi fi-rs-sort-alt absolute-center"></i>,
+    title: 'Open Now',
 
   },
-  {
-    id:6,
-    title: 'Great Offers',
-
-  },
+  
 ]
 
+const diningList = diningOut;
 const DiningOut = () => {
   return (
     <div>
       <Collection list={collectionList}/>
+      <div className="max-width">
+        <Filters filterList={diningFilters}/>
+      </div>
+    <ExploreSection List={diningList}
+       collectionName='Trending dining restaurants in Phase 6'/>
     </div>
   )
 }
