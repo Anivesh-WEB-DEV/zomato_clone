@@ -44,20 +44,17 @@
  font-weight: 500;
  text-overflow: ellipsis;
 }
+
 .gold-off{
  position: absolute;
  left: 0px;
  bottom: 14px;
- background-color: var(--tag-red);
- color: var(--primary-bg);
- font-size: 14px;
- padding: 0px 6px;
- border-radius: 0px 2px 2px 0px;
- overflow: hidden;
- white-space: nowrap;
- line-height: 18px;
- font-weight: 500;
- text-overflow: ellipsis;
+    background: linear-gradient(90deg, rgb(12, 14, 17) 0%, rgb(12, 14, 17) 25%, rgb(12, 14, 17) 50%, rgba(12, 14, 17, 0.8) 80%, rgba(12, 14, 17, 0) 100%);
+    padding: 2px 50px 2px 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--primary-bg);
+
 }
 .res-row{
  display: flex;

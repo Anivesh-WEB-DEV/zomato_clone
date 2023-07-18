@@ -366,7 +366,7 @@ export const diningOut = [
          "gold_offer": true,
          "text": "Flat",
          "offerValue": "10% OFF",
-         "isGoldIcon": true
+         "isGoldIcon": "https://b.zmtcdn.com/data/o2_assets/9b1ff9e19b7fadea6c6a57e081a1f5ac1687776279.png",
      },
      "takeaway": [],
      "cardAction": {
