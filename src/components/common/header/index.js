@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import '../../../styles/commonClasses.css'
-import Img from '../../../IMG/menu.PNG';
 const Header = () => {
   return (
     <div className='max-width header'>
