@@ -14,6 +14,7 @@ import './exploreCard.css'
  const bottomContainers = restaurant?.bottomContainers;
  const goldOff = restaurant?.gold?.text; 
  const goldOffs = restaurant?.gold?.offerValue; 
+ const goldImg = restaurant?.gold?.isGoldIcon; 
 //  const goldImg = "https://b.zmtcdn.com/data/o2_assets/9b1ff9e19b7fadea6c6a57e081a1f5ac1687776279.png"
  const discount = offers.length>1 ?offers[1].text : offers.length===1 ? offers[0].text : null;
 
@@ -23,7 +24,7 @@ import './exploreCard.css'
     <div className='explore-card-cover'>
       <img src={coverImg} alt={name} className='explore-card-image'/>
     <div className='delivery-time'>{deliveryTime}</div>
-    {goldOff && <div className='gold-off absolute-center'>{goldOff}  {goldOffs}</div>}
+    {goldOff && <div className='gold-off absolute-center'>{}{goldOff}  {goldOffs}</div>}
     {discount && <div className='discount absolute-center'>{discount}</div>}
   </div>
   <div className="res-row">

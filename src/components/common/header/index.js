@@ -14,7 +14,7 @@ const Header = () => {
          <div className="location-wrapper">
           <div className="location-icon-name">
           <i className="fi fi-sr-marker absolute-center location-icon"></i>
-          <div>Bangalore</div>
+          <div>6 Phase, Mohali </div>
           </div>
           <i className="fi fi-sr-caret-down absolute-center"></i>
          </div>
@@ -29,8 +29,8 @@ const Header = () => {
         </div>
         <div className="profile-wrapper">
           <img 
-          // src="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" 
-          src={Img}
+          src="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" 
+          // src={Img}
           alt="profile"
           className='header-profile-image'
            />
